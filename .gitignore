@@ -1,0 +1,10 @@
+# Forge fluff
+/run/*
+/out/*
+/gradle/*
+/build/*
+/.idea/*
+/.gradle/*
+gradlew
+build.gradle
+gradlew.bat
