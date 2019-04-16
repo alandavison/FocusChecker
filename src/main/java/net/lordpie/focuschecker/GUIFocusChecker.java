@@ -31,6 +31,6 @@ public class GUIFocusChecker extends Gui {
 
         isFocused = Display.isActive() ? "Focused" : "Unfocused";
 
-        drawCenteredString (mc.fontRenderer, isFocused, width / 2, height - 48, Integer.parseInt("FFAA00", 16));
+        drawCenteredString (mc.fontRenderer, isFocused, width / 2, height - 58, Integer.parseInt("FFAA00", 16));
     }
 }
