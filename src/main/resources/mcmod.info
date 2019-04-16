@@ -1,0 +1,10 @@
+[{
+    "modid": "focuschecker",
+    "name": "Focus Checker",
+    "description": "A simple GUI overlay to tell you whether or not the Minecraft window is in focus.",
+    "version": "0.1",
+    "mcversion": "1.12.2",
+    "authorList": ["LordPie"],
+    "credits": "jrbudda and Techjar for Vivecraft.",
+    "url": "http://www.lordpie.net/"
+}]
