@@ -22,9 +22,9 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class GUIHandler {
 
-    @SubscribeEvent
+    @SubscribeEvent // Subscribe to GUI update events.
     public void onRenderGUI(RenderGameOverlayEvent.Post e) {
-        if (e.getType() != RenderGameOverlayEvent.ElementType.EXPERIENCE) return;
-        new GUIFocusChecker(Minecraft.getMinecraft());
+        if (e.getType() != RenderGameOverlayEvent.ElementType.EXPERIENCE) return; // Ensure we only draw when the EXP bar isn't being updated.
+        new GUIFocusChecker(Minecraft.getMinecraft()); // Create instance of GUIFocusChecker class to draw GUI element.
     }
 }
